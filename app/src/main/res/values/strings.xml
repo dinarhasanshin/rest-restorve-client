@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">rest-reserve</string>
+    <string name="number_phone">Номер телефона</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="login_without_register">Войти без регистрации</string>
+    <string name="lastName">Фамилия</string>
+    <string name="firstName">Имя</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".activity.main.MainActivity"
+android:background="@drawable/arrow_left"
+android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo_app_name"
+    android:layout_marginTop="59dp"/>
+
+
+
+<EditText
+    style="@style/edit_text_auth"
+    android:id="@+id/firstName"
+    android:layout_width="320dp"
+    android:layout_height="51dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="119dp"
+    android:hint="@string/firstName"
+    android:background="@drawable/edit_text_background" />
+
+<EditText
+    android:id="@+id/lastName"
+    style="@style/edit_text_auth"
+    android:layout_width="320dp"
+    android:layout_height="51dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="34dp"
+    android:hint="@string/lastName"
+    android:background="@drawable/edit_text_background"/>
+
+<EditText
+    android:id="@+id/login_phone"
+    style="@style/edit_text_auth"
+    android:layout_width="320dp"
+    android:layout_height="51dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="34dp"
+    android:hint="@string/number_phone"
+    android:background="@drawable/edit_text_background"/>
+<EditText
+    android:id="@+id/login_password"
+    style="@style/edit_text_auth"
+    android:layout_width="320dp"
+    android:layout_height="51dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="34dp"
+    android:hint="@string/password"
+    android:background="@drawable/edit_text_background"/>
+
+<Button
+    android:id="@+id/register_button"
+    style="@style/edit_text_auth"
+    android:layout_width="228dp"
+    android:layout_height="51dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="57dp"
+    android:background="@drawable/custom_button"
+    android:text="@string/register" />
+
+<Button
+    android:id="@+id/login_button"
+    style="@style/edit_text_auth"
+    android:layout_width="228dp"
+    android:layout_height="51dp"
+    android:text="@string/login"
+    android:background="@null"
+    android:layout_gravity="center"
+    android:layout_marginTop="22dp"/>
+
+<Button
+    style="@style/edit_text_auth"
+    android:layout_width="wrap_content"
+    android:layout_height="51dp"
+    android:background="@null"
+    android:text="@string/login_without_register"
+    android:layout_gravity="center"
+    android:layout_marginTop="47dp"/>
+
+
+
+</LinearLayout>
