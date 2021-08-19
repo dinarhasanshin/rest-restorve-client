@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity implements MainView {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(v.getContext(), SignInActivity.class);
+                Intent intent = new Intent(MainActivity.this, SignInActivity.class);
                 startActivity(intent);
-                finish();
+                MainActivity.this.finish();
 
             }
         });

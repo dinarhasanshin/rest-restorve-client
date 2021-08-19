@@ -44,9 +44,9 @@ public class SignInActivity extends AppCompatActivity implements SignInView {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(v.getContext(), MainActivity.class);
+                Intent intent = new Intent(SignInActivity.this, MainActivity.class);
                 startActivity(intent);
-                finish();
+                SignInActivity.this.finish();
 
             }
         });

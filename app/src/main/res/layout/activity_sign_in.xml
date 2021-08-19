@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".activity.main.MainActivity"
-android:background="@drawable/arrow_left"
-android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.MainActivity"
+    android:background="@drawable/arrow_left"
+    android:orientation="vertical">
 
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:src="@drawable/logo_app_name"
-    android:layout_marginTop="59dp"/>
+    android:layout_marginTop="39dp"/>
 
 
 
@@ -20,6 +20,7 @@ android:orientation="vertical">
     android:id="@+id/firstName"
     android:layout_width="320dp"
     android:layout_height="51dp"
+    android:focusableInTouchMode="true"
     android:layout_gravity="center"
     android:layout_marginTop="119dp"
     android:hint="@string/firstName"
@@ -30,6 +31,7 @@ android:orientation="vertical">
     style="@style/edit_text_auth"
     android:layout_width="320dp"
     android:layout_height="51dp"
+    android:focusableInTouchMode="true"
     android:layout_gravity="center"
     android:layout_marginTop="34dp"
     android:hint="@string/lastName"
@@ -40,6 +42,7 @@ android:orientation="vertical">
     style="@style/edit_text_auth"
     android:layout_width="320dp"
     android:layout_height="51dp"
+    android:focusableInTouchMode="true"
     android:layout_gravity="center"
     android:layout_marginTop="34dp"
     android:hint="@string/number_phone"
@@ -49,6 +52,7 @@ android:orientation="vertical">
     style="@style/edit_text_auth"
     android:layout_width="320dp"
     android:layout_height="51dp"
+    android:focusableInTouchMode="true"
     android:layout_gravity="center"
     android:layout_marginTop="34dp"
     android:hint="@string/password"
@@ -81,7 +85,7 @@ android:orientation="vertical">
     android:background="@null"
     android:text="@string/login_without_register"
     android:layout_gravity="center"
-    android:layout_marginTop="47dp"/>
+    android:layout_marginTop="40dp"/>
 
 
 

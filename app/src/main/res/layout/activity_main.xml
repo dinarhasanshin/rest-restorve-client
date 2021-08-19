@@ -11,13 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/logo_app_name"
-        android:layout_marginTop="59dp"/>
+        android:layout_marginTop="39dp"/>
 
     <EditText
         style="@style/edit_text_auth"
         android:id="@+id/login_phone"
         android:layout_width="320dp"
         android:layout_height="51dp"
+        android:focusableInTouchMode="true"
         android:layout_gravity="center"
         android:layout_marginTop="169dp"
         android:hint="@string/number_phone"
@@ -28,6 +29,7 @@
         style="@style/edit_text_auth"
         android:layout_width="320dp"
         android:layout_height="51dp"
+        android:focusableInTouchMode="true"
         android:layout_gravity="center"
         android:layout_marginTop="38dp"
         android:hint="@string/password"
